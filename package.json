@@ -1,0 +1,18 @@
+{
+  "name": "bitcoin-recovery-tool",
+  "version": "1.0.0",
+  "description": "Bitcoin seed phrase recovery tool with hash-only database",
+  "main": "bitcoin_recovery.js",
+  "scripts": {
+    "start": "node bitcoin_recovery.js",
+    "test": "node hash_database.js"
+  },
+  "dependencies": {
+    "bip32": "^4.0.0",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.5",
+    "tiny-secp256k1": "^2.2.4"
+  },
+  "author": "Bitcoin Recovery Tool",
+  "license": "MIT"
+}
